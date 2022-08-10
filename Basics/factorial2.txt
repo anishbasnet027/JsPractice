@@ -1,0 +1,8 @@
+function factorial(n){
+    var sum = 1;
+    while(n > 0){
+        sum *= n;
+        n--;
+    }
+    return sum;
+}
