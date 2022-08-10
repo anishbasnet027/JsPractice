@@ -1,0 +1,12 @@
+area of triangle, given 3 sides
+
+  
+let side_1 = 5;
+  let side_2 =6;
+  let side_3 = 7;
+  
+  let s = (side_1 + side_2+ side_3)/2;
+  let area = Math.sqrt(s*((s-side_1)*(s-side_2)*(s-side_3)));
+ console.log("Area is ");             
+ console.log(area);
+ 

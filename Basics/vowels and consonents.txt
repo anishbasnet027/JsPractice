@@ -1,0 +1,22 @@
+print only vowels and consonets of "javascriptloops"
+
+
+function vowelsAndConsonants(s) {
+    for (let vowel in s ){
+        let b = s[vowel];
+        if (b=="a"||b=="e"||b=="i"||b=="o"||b=="u"){
+            console.log(b);
+        }
+    }
+    for (let vowel in s ){
+        let b = s[vowel];
+        if (b!="a"&&b!="e"&&b!="i"&&b!="o"&&b!="u"){
+            console.log(b);
+        }
+    
+    }
+}
+
+vowelsAndConsonants("javascriptloops");
+
+
