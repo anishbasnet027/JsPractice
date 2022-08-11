@@ -1,0 +1,10 @@
+function oddEven (limit){
+    for (let a=0; a<=limit;a++){
+        if (a%2==0){
+            console.log( a+"  EVEN")
+        }
+        else console.log( a+"  ODD")
+    }
+}
+
+oddEven(15);

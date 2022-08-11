@@ -1,0 +1,8 @@
+function oddEven (limit){
+    for (let a=0; a<=limit;a++){
+        const message = (a%2===0)? "Even":"Odd";
+        console.log(a,message)
+    }
+}
+
+oddEven(15);
